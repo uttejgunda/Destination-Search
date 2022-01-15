@@ -1,0 +1,67 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    justify-content: flex-start;
+  }
+
+  .content-container {
+    align-items: flex-start;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 42px;
+  color: #252627;
+  text-align: center;
+}
+
+.input-container {
+  background-color: #f1f5f9;
+  display: flex;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+}
+
+.input {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.destinations-container {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-container {
+    justify-content: flex-start;
+  }
+}
